@@ -1,0 +1,8 @@
+runtime: java17
+instance_class: F1
+
+entrypoint: java -jar build/libs/bachmanity-bytes-1.0.0.jar serve
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 2
