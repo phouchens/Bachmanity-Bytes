@@ -22,7 +22,6 @@ fun startServer(port: Int? = null) {
         }
 
         routing {
-            // API endpoints
             get("/api/daily") {
                 call.respond(quoteService.getDailyQuote())
             }
@@ -31,7 +30,6 @@ fun startServer(port: Int? = null) {
                 call.respond(quoteService.getRandomQuote())
             }
 
-            // Main UI
             get("/") {
                 call.respondHtml(HttpStatusCode.OK) {
                     brutalistPage()

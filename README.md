@@ -225,12 +225,6 @@ Edit `src/main/resources/quotes.json`:
 }
 ```
 
-### Running Tests
-
-```bash
-./gradlew test
-```
-
 ### Building for Different Platforms
 
 Native images are platform-specific. Build on:
@@ -261,4 +255,3 @@ Feel free to submit issues or pull requests!
 
 ---
 
-**Made with Bachmanity** 🚀
